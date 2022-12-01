@@ -3,5 +3,9 @@
 
     <string name="open">Open</string>
     <string name="close">Close</string>
+    <string name="take_photo">Take photo</string>
+    <string name="description">Select a preset image or take a new photo</string>
+    <string name="text_center">Object detection demo</string>
+
 
 </resources>
