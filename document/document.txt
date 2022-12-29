@@ -3,10 +3,12 @@ project android:
 https://developers.google.com/codelabs/tflite-object-detection-android#0
 
 
-model tflite:
+efficientdet/lite2/detection - model tflite :
 https://tfhub.dev/tensorflow/lite-model/efficientdet/lite2/detection/metadata/1
 
 
+efficientdet/lite4/detection - model tflite :
+https://tfhub.dev/tensorflow/lite-model/efficientdet/lite4/detection/metadata/2
 
 
-
+models website: https://tfhub.dev/

@@ -61,12 +61,12 @@ class YolovOneActivity : AppCompatActivity(), View.OnClickListener {
         binding = ActivityYolov1Binding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        captureImageFab = findViewById(R.id.captureImageFab)
-        inputImageView = findViewById(R.id.imageView)
-        imgSampleOne = findViewById(R.id.imgSampleOne)
-        imgSampleTwo = findViewById(R.id.imgSampleTwo)
-        imgSampleThree = findViewById(R.id.imgSampleThree)
-        tvPlaceholder = findViewById(R.id.tvPlaceholder)
+        captureImageFab = findViewById(R.id.captureImageFab1)
+        inputImageView = findViewById(R.id.imageView1)
+        imgSampleOne = findViewById(R.id.imgSampleOne1)
+        imgSampleTwo = findViewById(R.id.imgSampleTwo1)
+        imgSampleThree = findViewById(R.id.imgSampleThree1)
+        tvPlaceholder = findViewById(R.id.tvPlaceholder1)
 
         captureImageFab.setOnClickListener(this)
         imgSampleOne.setOnClickListener(this)
@@ -87,21 +87,21 @@ class YolovOneActivity : AppCompatActivity(), View.OnClickListener {
 
     override fun onClick(v: View?) {
         when (v?.id) {
-            R.id.captureImageFab -> {
+            R.id.captureImageFab1 -> {
                 try {
                     dispatchTakePictureIntent()
                 } catch (e: ActivityNotFoundException) {
                     Log.e(TAG, e.message.toString())
                 }
             }
-            R.id.imgSampleOne -> {
-                setViewAndDetect(getSampleImage(R.drawable.img_meal_one))
+            R.id.imgSampleOne1 -> {
+                setViewAndDetect(getSampleImage(R.drawable.somebus))
             }
-            R.id.imgSampleTwo -> {
-                setViewAndDetect(getSampleImage(R.drawable.img_meal_two))
+            R.id.imgSampleTwo1 -> {
+                setViewAndDetect(getSampleImage(R.drawable.bicycle))
             }
-            R.id.imgSampleThree -> {
-                setViewAndDetect(getSampleImage(R.drawable.img_meal_three))
+            R.id.imgSampleThree1 -> {
+                setViewAndDetect(getSampleImage(R.drawable.bus))
             }
         }
     }
