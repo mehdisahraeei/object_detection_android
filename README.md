@@ -1,4 +1,4 @@
-## 01-explanation about yolov
+### explanation about project
 
 
 ### step1
@@ -28,3 +28,6 @@ Download the .tflite model from the link below then put it into assets folder in
 [link](https://tfhub.dev/tensorflow/lite-model/efficientdet/lite2/detection/metadata/1)
 
 ---------------------------------------------------------------------------------------
+### demo
+
+![banner](https://raw.githubusercontent.com/mehdisahraeei/object_detection_android/master/demo.png)
