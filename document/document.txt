@@ -4,7 +4,6 @@ https://developers.google.com/codelabs/tflite-object-detection-android#0
 
 
 model tflite:
-
 https://tfhub.dev/tensorflow/lite-model/efficientdet/lite2/detection/metadata/1
 
 

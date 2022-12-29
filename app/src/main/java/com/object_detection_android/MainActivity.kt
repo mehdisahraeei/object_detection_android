@@ -37,10 +37,10 @@ class MainActivity : AppCompatActivity() {
             navView.setNavigationItemSelectedListener {
                 when (it.itemId) {
                     R.id.firstItem -> {
-                        startActivity(Intent(this@MainActivity, YolovActivity::class.java))
+                        startActivity(Intent(this@MainActivity, YolovOneActivity::class.java))
                     }
                     R.id.secondtItem -> {
-                        startActivity(Intent(this@MainActivity,ClassificationActivity::class.java))
+                        startActivity(Intent(this@MainActivity,YolovTwoActivity::class.java))
                     }
                     R.id.thirdItem -> {
                         startActivity(Intent(this@MainActivity,AboutActivity::class.java))

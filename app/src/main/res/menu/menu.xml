@@ -3,13 +3,13 @@
 
     <item
         android:id="@+id/firstItem"
-        android:title="Using Yolov"
+        android:title="the first model(yolov)"
         android:icon="@drawable/yolov"/>
 
     <item
         android:id="@+id/secondtItem"
-        android:title="using image classification"
-        android:icon="@drawable/image_classification"/>
+        android:title="the second model(yolov)"
+        android:icon="@drawable/yolov"/>
 
     <item
         android:id="@+id/thirdItem"

@@ -27,7 +27,7 @@
                 android:value="" />
         </activity>
         <activity
-            android:name=".ClassificationActivity"
+            android:name=".YolovTwoActivity"
             android:screenOrientation="portrait"
             android:exported="false">
             <meta-data
@@ -35,7 +35,7 @@
                 android:value="" />
         </activity>
         <activity
-            android:name=".YolovActivity"
+            android:name=".YolovOneActivity"
             android:screenOrientation="portrait"
             android:exported="false">
             <meta-data
