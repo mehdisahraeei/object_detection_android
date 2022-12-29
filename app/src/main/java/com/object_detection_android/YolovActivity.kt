@@ -119,7 +119,7 @@ class YolovActivity : AppCompatActivity(), View.OnClickListener {
             .build()
         val detector = ObjectDetector.createFromFileAndOptions(
             this, // the application context
-            "lite-model.tflite", // must be same as the filename in assets folder
+            "lite-model1.tflite", // must be same as the filename in assets folder
             options
         )
 
