@@ -7,6 +7,6 @@
     <string name="description">Select a preset image or take a new photo</string>
     <string name="text_center">Object detection demo</string>
     <string name="textmain">welcome. Use the services of this program through the menu</string>
-
+    <string name="textscroll">This is an application about object recognition that was developed by Mehdi Sahraei. To contact the developer, click on the links below</string>
 
 </resources>
