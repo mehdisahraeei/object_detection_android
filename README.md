@@ -8,7 +8,7 @@ add the dependency in your build.gradle
 ```
     //better to replace new version
 
-    //TODO: Add TFLite Task Library here
+    //Add TFLite Task Library here
     implementation 'org.tensorflow:tensorflow-lite-task-vision:0.3.1'
     implementation 'androidx.lifecycle:lifecycle-runtime-ktx:2.3.0'
     implementation 'androidx.exifinterface:exifinterface:1.3.2'
